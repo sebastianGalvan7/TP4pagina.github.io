@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Personas</title>
+</head>
+<header>
+    <h1>Fotos de Usuario</h1>
+</header>
+<main>
+    <div class="formulario">
+        <form id="formulario">
+            <div style="width: 70%">
+                <input id="textoBusqueda" type="text" placeholder="Escribe el nombre del usuario">
+            </div>
+            <div class="box-radio" style="width: 30%">
+                <span>
+                    <label for="todos">Todos</label>
+                    <input checked type="radio" name="busqueda" id="todos">
+                </span>
+                <span>
+                    <label for="hombre">Hombre</label>
+                    <input type="radio" name="busqueda" id="hombre">
+                </span>
+                <span>
+                    <label for="mujer">Mujer</label>
+                    <input type="radio" name="busqueda" id="mujer">
+                </span>
+            </div>
+        </form>
+    </div>
+    <div id="gallery">
+        <!-- usuarios -->
+    </div>
+    <div id="popup" class="hidden">
+        <!-- user -->
+    </div>
+</main>
+<footer>
+    <p>&copy; 2023 Tu Empresa</p>
+</footer>
+</body>
+<script src="./index.js"></script>
+
+</html>
